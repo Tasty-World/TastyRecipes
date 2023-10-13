@@ -1,0 +1,425 @@
+.tastyLogo img {
+  width: 100px;
+  object-fit: contain;
+  height: 120px;
+  margin-left: 4px;
+  position: relative;
+  border-radius: 60%;
+}
+
+#title1 {
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #d66433, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+#title1:hover {
+  transform: scale(0.9)
+}
+
+
+#search {
+  font-style: italic;
+  width: 350px;
+  top: -10px;
+  position: relative;
+  left: 25%;
+  padding-top: 5px;
+  padding-left: 2px;
+  border: solid 1.5px #9e9e9e;
+  border-radius: 1rem;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+#show {
+  background-color: rgba(255, 159, 108, 0.533);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 1rem;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 2px;
+  left: 90%;
+  width: 100px;
+  height: 50px;
+  top: -10px;
+}
+
+#show:hover {
+  background-color: #FFA500;
+}
+
+#find {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 1rem;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 2px;
+  left: 25%;
+  width: 100px;
+  height: 50px;
+  top: -10px;
+}
+
+#find:hover {
+  background-color: #FFA500;
+}
+
+
+.image {
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 2);
+  border: 1px solid black;
+  transition: 0.7 ease;
+  position: absolute;
+}
+
+.flagcountry {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 2);
+  border: 1px solid black;
+  transition: 0.7 ease;
+}
+
+
+#recipes {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+
+
+.tasty {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 2px; */
+  width: 40%;
+  transition: 0.5s;
+  /* background-color: #FAACA8; */
+  background-image: linear-gradient(19deg, #f7dddc 0%, #e0e0e0 30%);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.tasty:hover {
+  transform: scale(1.1)
+}
+
+#addRecipe {
+  display: flex;
+  flex-direction: column;
+}
+
+
+body {
+  background-image: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.delete {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+
+.country {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.category {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10%;
+  font-size: large;
+}
+
+#country0 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country1 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country2 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country3 {
+  color: green;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country5 {
+  letter-spacing: 2px;
+  color: blue;
+  font-size: x-large;
+
+}
+
+#country4 {
+  letter-spacing: 2px;
+  color: blue;
+  font-size: x-large;
+
+}
+
+#country6 {
+  color: green;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country7 {
+  color: green;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country8 {
+  color: #639ada;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country9 {
+  color: #639ada;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country10 {
+  color: green;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country11 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+  ;
+}
+
+#country12 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country13 {
+  color: green;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country14 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country15 {
+  color: blue;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country16 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+  ;
+}
+
+#country17 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country18 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+  ;
+}
+
+#country19 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country20 {
+  color: red;
+  font-size: x-large;
+  letter-spacing: 2px;
+  ;
+}
+
+#country21 {
+  color: rgb(143, 143, 22);
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+#country22 {
+  color: orangered;
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+
+#country23 {
+  color: rgb(37, 157, 55);
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+
+#country24 {
+  color: rgb(248, 52, 52);
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+
+#country25 {
+  color: rgb(185, 57, 57);
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+
+#country26 {
+  color: rgb(32, 156, 61);
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+
+#country27 {
+  color: rgb(58, 52, 253);
+  font-size: x-large;
+  letter-spacing: 2px;
+  margin-left: 6%;
+}
+
+.time {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 2px;
+
+}
+
+.ingredient {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  position: relative;
+  margin-top: 65px
+}
+
+.ingredient:hover {
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+}
+
+#addRecipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 5%;
+  padding: 10px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #3338;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.image {
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 2);
+  border: 1px solid black;
+  transition: 0.7 ease;
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.flagcountry {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 2);
+  border: 1px solid black;
+  transition: 0.7 ease;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tasty World</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1ae3dece4a.js" crossorigin="anonymous"></script>
+        
+    </head>    
+    
+    <body>
+        <div class="head">
+            <a href="index.html" class="tastyLogo"><img src="TastyWorldLogos/TastyFoodLogo2.PNG" style="max-width: 90px;">
+            </a>    
+            <!-- <a class="active" href="index.html" id="homebtn">Home</a> -->
+        </div>    
+        <div class="navigation">
+       
+         <h1 id="title1"> Leave The Recipes To Us.</h1>
+            <button id="show"> Add Recipe </button>
+            <div id="addRecipe">
+                <h3>Add Recipe</h3>
+                <div id="form">
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" required><br/>
+                    
+                     <label for="country">Country:</label>
+                     <textarea id="country" rows="1" required></textarea><br/>
+                    
+                     <label for="flagCountry"> Flag Country:</label>
+                     <textarea id="flagCountry" rows="1" required></textarea><br/>
+                    
+                     <label for="category">Category:</label>
+                     <textarea id="category" rows="1" required></textarea><br/>
+                    
+                     <label for="ingredients">Ingredients:</label>
+                      <textarea id="ingredients" rows="3" required></textarea><br/>
+                     
+                      <label for="images">Images:</label>
+                      <textarea id="images" rows="3" required></textarea><br/>
+
+                    
+                      <label for="time">Time To Prepare:</label>
+                      <textarea id="time" rows="1" required></textarea><br/>
+                    
+                   
+                      <button type="submit" id="submit">Submit</button>
+                </div>
+
+        </div> 
+
+         <input type="text" placeholder="Search By Name Or Country" id="search"> <button id="find">Let's Cook</button>
+           
+    </div>        
+
+    <div id="recipes">
+
+    </div>    
+
+
+
+
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    position: relative;
+    width: 20%;
+    margin-left: 39%;
+    margin-top: 5%;
+    color: white;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    font-family: 'Dela Gothic One', cursive;
+    background: linear-gradient(to right, #e79d52, #d6b1b1);
+}
+
+
+body {
+    background-image: url("https://images.pexels.com/photos/6287575/pexels-photo-6287575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+#recipeDetails {
+    text-align: justify;
+    color: black;
+    position: absolute;
+    display: flex;
+    margin-top: 5%;
+    border: solid 2px;
+    background-color: bisque;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    transition: 1;
+
+
+}
+
+#recipeDetails:hover {
+    transform: scale(1.1)
+}
